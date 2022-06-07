@@ -43,6 +43,9 @@ p{
     font-weight: bold;
 }
 
+#internship_ratings{
+    border-spacing: 10px;
+}
 
 tr {
     padding: 15px;
