@@ -1,0 +1,47 @@
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+p{
+    line-height: 1.4em;
+}
+
+/** Selectors for blogs and blog posts (index.html) **/
+#blog {
+    border-top: 3px dotted #ccc;
+}
+
+.blogPost {
+    border-bottom: 1px dotted #ccc;
+}
+
+/** Attribute selectors for images in blog posts (index.html) **/
+[src="earth.png"] {
+    width: 100px;
+}
+
+[src="training.png"] {
+    width: 100px;
+}
+
+#newsletterSignup {
+    font-weight: bold;
+}
+
+.author {
+    color: #c23636;
+}
