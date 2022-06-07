@@ -8,6 +8,7 @@ body {
     color: #242424;
     border-top: 10px solid #242424;
     padding: 40px;
+    background-color: #ccc;
 }
 
 h1 {
@@ -42,6 +43,6 @@ p{
     font-weight: bold;
 }
 
-.author {
-    color: #c23636;
+#internship_ratings{
+    border-spacing: 10px;
 }
