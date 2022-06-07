@@ -8,7 +8,7 @@ body {
     color: #242424;
     border-top: 10px solid #242424;
     padding: 40px;
-    background-color: #ccc;
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -46,3 +46,7 @@ p{
 #internship_ratings{
     border-spacing: 10px;
 }
+
+th, td {
+    padding: 15px;
+  }
