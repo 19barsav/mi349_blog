@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>MI 349 Blog</title>
 </head>
 <body>
@@ -17,13 +18,13 @@
             <li><a href="/about.html">About</a></li>
         </ul>
     </nav>
-    <section>
+    <section id='blog'>
         <h2> Blog Posts </h2>
-        <article>
+        <article className="blogPost">
             <h3>Is Your DEI Training Lacking?</h3>
             <address class="author">By <a rel="author" href="/author/about">Savvy B.</a></address> 
             <time datetime="2022-06-01" title="June 1st, 2022">06/01/2022</time>
-            <p><img src="training.png" width=100 alt="clip-art of a person presenting ot three others"></p>
+            <p><img src="training.png"  alt="clip-art of a person presenting ot three others"></p>
         
             <p>
                 Good day, readers!
@@ -70,11 +71,11 @@
             </p>
             
         </article>
-        <article>
+        <article className="blogPost">
             <h3>Welcome to my Blog!</h3>
             <address class="author">By <a rel="author" href="/author/about">Savvy B.</a></address> 
             <time  datetime="2022-05-31" title="May 31st, 2022">05/31/2022</time>
-            <p><img src="earth.png" width=100 alt="a clip-art photo of earth with a blushing face on it"></p>
+            <p><img src="earth.png" alt="a clip-art photo of earth with a blushing face on it"></p>
             
             <p>
                 Hello, World!
@@ -134,7 +135,7 @@
     </section>
     <div>
         <form>
-            <label>Sign up for our newsletter:
+            <label id="newsletterSignup">Sign up for our newsletter:
                 <input type="text">
             </label>
             <button>Subscribe</button>
