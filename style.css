@@ -56,7 +56,7 @@ tr {
   }
 
 table{
-    
+
     padding-top: 5 px;
     padding-bottom: 5 px;
 }
@@ -78,7 +78,6 @@ article {
 
 
 .img_cont{
-    display: flex;
     float:left;
     margin-right: 10px;
     width: 200px;
