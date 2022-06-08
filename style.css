@@ -67,9 +67,15 @@ table{
     padding: 5px;
 }
 
+article {
+    padding: 10px;
+}
+
 .img_cont{
     float:left;
     margin-right: 10px;
+    width: 200px;
+    padding: 5px;
 }
 
 .img_cont > p{
