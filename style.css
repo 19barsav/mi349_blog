@@ -24,6 +24,7 @@ p{
 /** Selectors for blogs and blog posts (index.html) **/
 #blog {
     border-top: 3px dotted #ccc;
+    display: flex;
 }
 
 .blogPost {
@@ -51,3 +52,8 @@ tr {
     width: 15px;
     
   }
+
+.navBar {
+    position: sticky;
+    top: 0;
+}
