@@ -50,12 +50,16 @@ p{
 
 tr {
     width: 15px;
-    
   }
+
+table{
+    padding-top: 5 px;
+    padding-bottom: 5 px;
+}
 
 .navBar {
     position: sticky;
     top: 0;
     background: #cdffc7;
-    padding: 10px;
+    padding: 5px;
 }
