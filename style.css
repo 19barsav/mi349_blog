@@ -34,11 +34,17 @@ p{
 
 /** Attribute selectors for images in blog posts (index.html) **/
 [src="earth.png"] {
-    width: 100px;
+    width: 200px;
 }
 
 [src="training.png"] {
-    width: 100px;
+    width: 200px;
+}
+
+[src="training.png"] > p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #newsletterSignup {
@@ -67,5 +73,5 @@ table{
 
 img {
     float: left;
-    margin-right: 5px;
+    margin-right: 10px;
 }
