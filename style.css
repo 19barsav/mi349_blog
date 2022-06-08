@@ -56,4 +56,5 @@ tr {
 .navBar {
     position: sticky;
     top: 0;
+    background: #cdffc7;
 }
