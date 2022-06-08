@@ -64,3 +64,8 @@ table{
     background: #cdffc7;
     padding: 5px;
 }
+
+img {
+    float: left;
+    margin-right: 5px;
+}
