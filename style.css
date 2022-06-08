@@ -25,6 +25,7 @@ p{
 #blog {
     border-top: 3px dotted #ccc;
     display: flex;
+    flex: auto;
 }
 
 .blogPost {
