@@ -87,3 +87,14 @@ article {
     color: rgb(110, 109, 109);
 }
 
+#about_img{
+    flex: 1;
+}
+
+#about_blurb{
+    flex:4;
+}
+
+#about_list{
+    flex:1;
+}
