@@ -102,6 +102,7 @@ article {
 @media (max-width: 400px) {
     #blog{
         display: grid;
+        background-color: red;
     }
 
     .blogPost {
