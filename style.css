@@ -105,8 +105,20 @@ article {
         background-color: rgb(237, 252, 229);
     }
 
+    [src="earth.png"] {
+        width: 100px;
+    }
+    
+    [src="training.png"] {
+        width: 100px;
+    }
+
     .blogPost {
         grid-column: 1;
+    }
+
+    .blogpost p {
+        font-size: small;
     }
 
     table {
