@@ -98,3 +98,9 @@ article {
 #about_list{
     flex:1;
 }
+
+@media (max-width: 400px) {
+    #blog{
+        display: block;
+    }
+}
