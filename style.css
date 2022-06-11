@@ -99,10 +99,10 @@ article {
     flex:1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #blog{
         display: grid;
-        background-color: red;
+        background-color: rgb(237, 252, 229);
     }
 
     .blogPost {
