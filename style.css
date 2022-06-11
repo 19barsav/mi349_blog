@@ -99,7 +99,7 @@ article {
     flex:1;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     #blog{
         display: grid;
         background-color: red;
