@@ -101,8 +101,11 @@ article {
 
 @media (max-width: 400px) {
     #blog{
-        display: block;
-        flex: none;
+        display: grid;
+    }
+
+    .blogPost {
+        grid-column: 1;
     }
 
     table {
